@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memorial for Gilbert (Avraham) ben Shlomo Habib</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="language-switch">
+      <button onclick="switchLanguage('he')">
+        <img
+          class="flag"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/2560px-Flag_of_Israel.svg.png"
+          alt=""
+        />
+        <p>עברית</p>
+      </button>
+      <button onclick="switchLanguage('fr')">
+        <img
+          class="flag"
+          src="https://www.countryflags.com/wp-content/uploads/france-flag-png-xl.png"
+          alt=""
+        />
+        <p>Français</p>
+      </button>
+    </div>
+
+    <div class="main-content" id="mainContent">
+      <h1 id="pageTitle">שבעה לגילברט (אברהם) בן שלמה חביב</h1>
+      <h2 id="shaharit">שחרית - 08:00</h2>
+      <h2 id="minha">מנחה - 16:00</h2>
+      <h2 id="arvit">ערבית - 18:15</h2>
+      <button class="waze-btn" onclick="redirectToWaze()">
+        <img
+          class="waze"
+          src="https://iconape.com/wp-content/png_logo_vector/waze.png"
+          alt=""
+        />
+        Waze
+      </button>
+    </div>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2580.0881354447442!2d34.857935565364755!3d32.33891673314581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sil!4v1700667281688!5m2!1sen!2sil"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+    <script
+      src="https://kit.fontawesome.com/9630cfcb36.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
